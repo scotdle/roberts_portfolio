@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-sass",
-  "description": "A Gatsby starter with Sass and no assumptions",
+  "name": "Robert's Portfolio",
+  "description": "Gatsby site for Robert Caudle based off of Colby Fayocks Gatsby SASS starter.",
   "version": "0.1.2",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
     "gatsby": "^2.15.9",
     "gatsby-plugin-react-helmet": "^3.1.6",
+    "gatsby-plugin-react-svg": "^2.1.2",
     "gatsby-plugin-resolve-src": "^2.0.0",
     "gatsby-plugin-sass": "^2.1.13",
     "gatsby-source-filesystem": "^2.1.21",
@@ -15,7 +16,9 @@
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bemify": "^0.1.2"
+  },
   "keywords": [
     "gatsby",
     "sass",
@@ -34,8 +37,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/colbyfayock/gatsby-starter-sass"
-  },
-  "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-sass/issues"
   }
 }

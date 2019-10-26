@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap"); // Muli Font
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap"); // Roboto Font
+@import url("https://use.typekit.net/jql6jvb.css"); // Raleway
+
+/*Variables*/
+
+/*Colors*/
+
+$MainBlack: #000000;
+
+
+
+  /*Fonts*/
+
+$Muli: 'Muli';
+$Roboto: 'Roboto';
+$Raleway: 'Raleway';
+
+/*Font Weights*/
+
+$Regular: 400;
+$ExtraBold: 800;
+$Black: 900;
+
+/*Font Mixins*/
+
+@mixin navFont {
+
+  color: $MainBlack;
+  font-family: $Raleway;
+  font-weight: $ExtraBold;
+  font-size: 1em;
+
+}
+
+@mixin defaultHeader {
+
+  font-family: $Raleway;
+  font-weight: $ExtraBold;
+  font-size: 40px;
+
+}
+
+@mixin headerFirstWord {
+
+  font-family: $Raleway;
+  font-weight: $ExtraBold;
+  font-size: 56pt;
+
+}
+/*---------------------------*/
+
+
